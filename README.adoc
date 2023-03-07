@@ -1,0 +1,11 @@
+= SpringBoot REST-API+MSSQL in a Box
+
+Based on [this article](https://www.javaguides.net/2019/01/spring-boot-microsoft-sql-server-jpa-hibernate-crud-restful-api-tutorial.html) with some additions.   
+Primrily eunning this in a devcontainer - which is not required. But it helps in this showcase.
+
+Generated SpringBoot App
+```shell
+https://start.spring.io/#!type=maven-project&language=java&platformVersion=3.0.4&packaging=jar&jvmVersion=1.8&groupId=de.baloise.devcontainer&artifactId=springboot&name=springboot&description=Demo%20project%20for%20Spring%20Boot&packageName=de.baloise.devcontainer.springboot&dependencies=web,data-jpa
+```
+
+

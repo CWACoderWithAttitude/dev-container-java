@@ -12,7 +12,7 @@ services:
       command: >
          bash -c "sleep infinity"
       networks:
-         rimutec:
+         coderwithattitude:
 
 networks:
-   rimutec:
+   coderwithattitude:

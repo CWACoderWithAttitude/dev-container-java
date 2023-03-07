@@ -10,6 +10,7 @@ RUN apt update && \
         iputils-ping \
         net-tools \
         lsb-release
+     
 # procps: to support command 'ps'
 # iputils-ping: to support command 'ping' (https://linuxconfig.org/ping-command-not-found-on-ubuntu-20-04-focal-fossa-linux) [Manfred, 19sep2021]
 # net-tools: to support command such as 'arp', 'ifconfig', 'netstat', etc. (https://helpmanual.io/packages/apt/net-tools/) [Manfred, 26sep2021]
@@ -38,7 +39,7 @@ RUN mkdir /src
 
 # Copy entrypoint script into container, make it executable, then make it the entrypoint for the
 # container:
-COPY entrypoint.sh /entrypoint.sh
-RUN chmod +x /entrypoint.sh
+#COPY entrypoint.sh /entrypoint.sh
+#RUN chmod +x /entrypoint.sh
 # Option '+x' adds executable flag to the file
-ENTRYPOINT ["/entrypoint.sh"]
+#ENTRYPOINT ["/entrypoint.sh"]
